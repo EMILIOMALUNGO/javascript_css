@@ -1,0 +1,14 @@
+import { StyleSheet, Text, View,StatusBar  } from 'react-native';
+
+
+export default function PaginaEnderco(props){
+    return(
+  <View style={{fontSaze:20,padding:20,marginTop:10}}>
+   <Text style={styles.endereco}>{props.ender}</Text>
+  <Text style={styles.endereco}>Brasileiro,casado, 26 anos</Text>
+  <Text style={styles.endereco}>E-mail:emilio.malungo@hotmail.com</Text>
+  <Text style={styles.endereco}>celular:(14)996767449/(14)981058439</Text>
+  <Text style={styles.endereco}>Endereço:Rua Jose vicente Aillo 13-129/ cidade:Bauru, S/P</Text>
+  </View>
+    )
+  } 
